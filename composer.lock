@@ -1,0 +1,162 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "2f55f57f83ed0403fb8db65454e1c812",
+    "packages": [
+        {
+            "name": "dantleech/invoke",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dantleech/invoke.git",
+                "reference": "9b002d746d2c1b86cfa63a47bb5909cee58ef50c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dantleech/invoke/zipball/9b002d746d2c1b86cfa63a47bb5909cee58ef50c",
+                "reference": "9b002d746d2c1b86cfa63a47bb5909cee58ef50c",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2||^8.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.13",
+                "phpbench/phpbench": "^1.0",
+                "phpstan/phpstan": "^0.12.0",
+                "phpunit/phpunit": "^8.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "DTL\\Invoke\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "daniel leech",
+                    "email": "daniel@dantleech.com"
+                }
+            ],
+            "description": "Emulate named parameters",
+            "support": {
+                "issues": "https://github.com/dantleech/invoke/issues",
+                "source": "https://github.com/dantleech/invoke/tree/2.0.0"
+            },
+            "time": "2021-05-01T17:22:58+00:00"
+        },
+        {
+            "name": "phpactor/language-server-protocol",
+            "version": "3.17.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpactor/language-server-protocol.git",
+                "reference": "065fc70b6a26a8d78e034f7db92c8872367356df"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpactor/language-server-protocol/zipball/065fc70b6a26a8d78e034f7db92c8872367356df",
+                "reference": "065fc70b6a26a8d78e034f7db92c8872367356df",
+                "shasum": ""
+            },
+            "require": {
+                "dantleech/invoke": "^2.0",
+                "php": "^7.3 || ^8.0"
+            },
+            "require-dev": {
+                "ergebnis/composer-normalize": "^2.0",
+                "friendsofphp/php-cs-fixer": "^2.17",
+                "phpstan/phpstan": "~0.12.0",
+                "phpunit/phpunit": "^9.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.3.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Phpactor\\LanguageServerProtocol\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniel Leech",
+                    "email": "daniel@dantleech.com"
+                }
+            ],
+            "description": "Langauge Server Protocol for PHP (transpiled)",
+            "support": {
+                "issues": "https://github.com/phpactor/language-server-protocol/issues",
+                "source": "https://github.com/phpactor/language-server-protocol/tree/3.17.3"
+            },
+            "time": "2023-03-11T13:19:45+00:00"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "openswoole/ide-helper",
+            "version": "22.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/openswoole/ide-helper.git",
+                "reference": "43fc13f3cc3212784822103efeec82829f6f22f5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/openswoole/ide-helper/zipball/43fc13f3cc3212784822103efeec82829f6f22f5",
+                "reference": "43fc13f3cc3212784822103efeec82829f6f22f5",
+                "shasum": ""
+            },
+            "require": {
+                "ext-openswoole": ">=22.0",
+                "php": ">=7.4"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.6"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "OpenSwoole Group",
+                    "email": "hello@openswoole.com"
+                }
+            ],
+            "description": "IDE helper for OpenSwoole.",
+            "support": {
+                "issues": "https://github.com/openswoole/ide-helper/issues",
+                "source": "https://github.com/openswoole/ide-helper/tree/22.0.1"
+            },
+            "time": "2023-02-05T22:27:37+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

@@ -1,0 +1,9 @@
+/vendor
+/vendor/*
+/client/node_modules/
+/client/node_modules/package-lock.json
+/client/node_modules/*
+/client/bun.lockb
+/client/out/
+/client/out/*
+composer.locl

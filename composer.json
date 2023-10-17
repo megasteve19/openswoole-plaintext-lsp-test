@@ -1,0 +1,13 @@
+{
+	"require-dev": {
+		"openswoole/ide-helper": "~22.0.1"
+	},
+	"require": {
+		"phpactor/language-server-protocol": "^3.17"
+	},
+	"autoload": {
+		"psr-4": {
+			"Server\\": "server/"
+		}
+	}
+}
