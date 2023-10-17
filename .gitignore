@@ -6,4 +6,4 @@
 /client/bun.lockb
 /client/out/
 /client/out/*
-composer.locl
+composer.lock
